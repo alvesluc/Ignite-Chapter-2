@@ -1,7 +1,7 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { createServer } from "miragejs";
-import { App } from "./App";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { createServer } from 'miragejs';
+import { App } from './App';
 
 createServer({
   routes() {
@@ -13,17 +13,17 @@ createServer({
           id: 1,
           title: 'Transaction 1',
           type: 'deposit',
-          category: "Food",
+          category: 'Food',
           createdAt: new Date(),
-        }
-      ]
+        },
+      ];
     });
-  }
+  },
 });
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById("root")
+  document.getElementById('root'),
 );
