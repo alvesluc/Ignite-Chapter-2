@@ -16,7 +16,7 @@ createServer({
           type: 'deposit',
           category: 'Desenvolvimento',
           amount: 3000,
-          createdAt: new Date('2021-02-12 09:00:00'),
+          createdAt: new Date('2021-02-12'),
         },
         {
           id: 2,
@@ -24,7 +24,7 @@ createServer({
           type: 'withdraw',
           category: 'Custo de vida',
           amount: 950,
-          createdAt: new Date('2021-02-15 09:00:00'),
+          createdAt: new Date('2021-02-15'),
         },
       ],
     });
